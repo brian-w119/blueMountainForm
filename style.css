@@ -1,0 +1,10 @@
+
+
+#mainImage{
+    max-width: 40%;
+    height: 100%;
+}
+
+#mainImage > img{
+    background-size: contain;
+}
