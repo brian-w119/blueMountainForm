@@ -4,14 +4,13 @@ body{
 }
 
 
-#image1 > img{
+#image1{
     width: calc(100% / 3);
 }
 
 .itemLayout{
     display: flex;
     justify-content: space-between;
-
 
 }
 
