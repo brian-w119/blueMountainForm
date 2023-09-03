@@ -32,8 +32,10 @@ body{
     margin-left: 7px;
 }
 
-.backgroundInfo > #video1{
-    width: calc(100% / 3.2);
+iframe{
+    margin-top: 30px;
+    margin-left: 7px;
+    width: 98%;
     height: 500px;
 }
 
