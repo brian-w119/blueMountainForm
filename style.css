@@ -1,10 +1,35 @@
 
-
-#mainImage{
-    max-width: 40%;
-    height: 100%;
+body{
+    background-color: rgb(14, 14, 14);
 }
 
-#mainImage > img{
-    background-size: contain;
+
+#image1 > img{
+    height: 100vh;
 }
+
+.itemLayout{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.itemLayout > #backgroundInfo{
+  max-width: 100px;
+  background-color: #e4dddd;
+  height: 100vh;
+}
+
+.itemLayout > #formSection{
+    max-width: 100px;
+    height: 100vh;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
