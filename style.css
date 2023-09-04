@@ -14,38 +14,81 @@ body{
 .itemLayout{
     display: flex;
     justify-content: space-between;
-
 }
 
 .itemLayout > .backgroundInfo{
   width: calc(100% / 3);
   background-color: #e4dddd;
   height: 100vh;
-  
- 
 }
 
 .itemLayout > #formSection{
     width: calc(100% / 3);
     height: 100vh;
-    background-color: blue;
+
 }
 
-.backgroundInfo > #para1, #para2, #para3{
+.backgroundInfo > #para1, #para2, #para3, #para4{
     margin-left: 7px;
 }
 
 iframe{
-    margin-top: 30px;
     margin-left: 7px;
     width: 98%;
-    height: 500px;
+    height: 485px;
 }
 
 #image1 > img{
     width: 100%;
     height: 100%;
 }
+
+.backgroundInfo > h1{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#formSection > img{
+    width: 100%;
+    height: 100%;
+}
+
+#formSection > form{
+    position: relative;
+    bottom: 598px;
+    color: blue;
+    
+}
+
+fieldset{
+    text-align: center;
+}
+
+.control{
+    background-color: blue;
+    color: white;
+}
+
+#para4 > img{
+   width: 70px;
+   height: 60px;
+   position: relative;
+   left: 10px;
+}
+
+#image2 > img{
+    position: relative;
+    width: 40px;
+    height: 30px;
+    left: 500px;
+    bottom: 40px;
+
+}
+
+
+
+
+
 
 
 
