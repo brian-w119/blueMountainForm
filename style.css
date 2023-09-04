@@ -67,6 +67,7 @@ fieldset{
 .control{
     background-color: blue;
     color: white;
+    transition: transform .2s;
 }
 
 #para4 > img{
@@ -76,14 +77,24 @@ fieldset{
    left: 10px;
 }
 
+.control:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+
 #image2 > img{
     position: relative;
     width: 40px;
     height: 30px;
     left: 500px;
     bottom: 40px;
-
 }
+
+
+
+
 
 
 
